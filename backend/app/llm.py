@@ -1,7 +1,7 @@
 import os
 import requests
 
-API_KEY = os.getenv("GROQ_API_KEY", "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")
+API_KEY = os.getenv("GROQ_API_KEY", "")
 ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"
 
 def get_ai_response(user_message: str) -> str:
